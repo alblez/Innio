@@ -1,0 +1,12 @@
+{
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "laravel-boost",
+    "herd"
+  ],
+  "permissions": {
+    "allow": [
+      "Bash(composer require:*)"
+    ]
+  }
+}
