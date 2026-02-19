@@ -18,7 +18,7 @@
                 "/Applications/Herd.app/Contents/Resources/herd-mcp.phar"
             ],
             "environment": {
-                "SITE_PATH": "/Users/alberto/Code/Billio"
+                "SITE_PATH": "/Users/alberto/Code/Innio"
             }
         }
     }

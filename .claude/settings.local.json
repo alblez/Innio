@@ -1,12 +1,13 @@
 {
+  "permissions": {
+    "allow": [
+      "Bash(composer require:*)",
+      "mcp__herd__get_site_information"
+    ]
+  },
   "enableAllProjectMcpServers": true,
   "enabledMcpjsonServers": [
     "laravel-boost",
     "herd"
-  ],
-  "permissions": {
-    "allow": [
-      "Bash(composer require:*)"
-    ]
-  }
+  ]
 }
