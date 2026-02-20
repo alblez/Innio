@@ -13,6 +13,9 @@ return new class extends Migration
     {
         Schema::create('units', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->string('type');
+            $table->boolean('active')->default(false);
             $table->timestamps();
         });
     }

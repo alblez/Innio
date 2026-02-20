@@ -13,6 +13,10 @@ return new class extends Migration
     {
         Schema::create('invoices', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('client_id')->constrained()->cascadeOnDelete();
+            $table->integer('number');
+            $table->integer('total_price')->nullable();
+            $table->string('status')->default('pending');
             $table->timestamps();
         });
     }
